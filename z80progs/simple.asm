@@ -1,4 +1,4 @@
-; Compile by z80asm -o rom.bin ./z80progs/simple.asm
+; Compile by z80asm -o simple.rom ./z80progs/simple.asm
 
         org 0x0000    ; Optional: Start address for the code
         LD A, 77      ; Load 0 into register A
